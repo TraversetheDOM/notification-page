@@ -1,0 +1,19 @@
+{
+  "name": "notifications-page-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)",
+  "source": "index.html", 
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TraversetheDOM/notification-page.git"
+  },
+  "keywords": [],
+  "author": "Ikuomola Stephen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TraversetheDOM/notification-page/issues"
+  },
+  "homepage": "https://github.com/TraversetheDOM/notification-page#readme"
+}
