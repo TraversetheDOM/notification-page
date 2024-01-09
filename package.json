@@ -5,7 +5,10 @@
   "source": "index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html", 
+    "lint": "npx eslint ./src --ext .js",
+    "lint:eslint": " npx eslint --fix .",
+    "lint:prettier": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,10 @@
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.11.0",
     "@parcel/transformer-webmanifest": "^2.11.0",
-    "parcel": "^2.11.0"
+    "eslint": "^8.56.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "parcel": "^2.11.0",
+    "prettier": "3.1.1"
   }
 }
