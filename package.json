@@ -2,9 +2,10 @@
   "name": "notifications-page-main",
   "version": "1.0.0",
   "description": "![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)",
-  "source": "index.html", 
+  "source": "index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/TraversetheDOM/notification-page/issues"
   },
-  "homepage": "https://github.com/TraversetheDOM/notification-page#readme"
+  "homepage": "https://github.com/TraversetheDOM/notification-page#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
 }
