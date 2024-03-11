@@ -1,0 +1,2 @@
+class t{#t=document.querySelector(".notification--page_removed-btn");#e=document.querySelectorAll(".notification--page_activity");constructor(){this.#t.addEventListener("click",this.#i.bind(this))}#i(t){this.#e.forEach(function(t){t.classList.contains("unread")&&(t.classList.remove("unread"),t.classList.add("read"),document.querySelector(".notification--page_amount > span").textContent="0")})}}new t;
+//# sourceMappingURL=index.564c03a5.js.map
