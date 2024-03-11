@@ -1,0 +1,2 @@
+!function(){class t{#t=document.querySelector(".notification--page_removed-btn");#n=document.querySelectorAll(".notification--page_activity");constructor(){this.#t.addEventListener("click",this.#e.bind(this))}#e(t){this.#n.forEach(function(t){t.classList.contains("unread")&&(t.classList.remove("unread"),t.classList.add("read"),document.querySelector(".notification--page_amount > span").textContent="0")})}}new t}();
+//# sourceMappingURL=index.bfec8b71.js.map
