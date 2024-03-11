@@ -5,22 +5,22 @@
   "source": "index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel index.html", 
+    "start": "parcel index.html",
     "lint": "npx eslint ./src --ext .js",
     "lint:eslint": " npx eslint --fix .",
     "lint:prettier": "prettier --write ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TraversetheDOM/notification-page.git"
+    "url": "git+https://github.com/stephenikuomola/notification-page.git"
   },
   "keywords": [],
   "author": "Ikuomola Stephen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TraversetheDOM/notification-page/issues"
+    "url": "https://github.com/stephenikuomola/notification-page/issues"
   },
-  "homepage": "https://github.com/TraversetheDOM/notification-page#readme",
+  "homepage": "https://github.com/stephenikuomola/notification-page#readme",
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.11.0",
     "@parcel/transformer-webmanifest": "^2.11.0",
