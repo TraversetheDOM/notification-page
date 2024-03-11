@@ -8,15 +8,16 @@ This project will be built to be responsive across two devices:
 ## Colors
 
 ```css
---red: hsl(1, 90%, 64%); 
---blue: hsl(219, 85%, 26%); 
---white: hsl(0, 0%, 100%)
---very-light-grayish-blue: hsl(210, 60%, 98%)
---light-grayish-blue-one: hsl(211, 68%, 94%)
---light-grayish-blue-two: hsl(205, 33%, 90%)
---grayish-blue: hsl(219, 14%, 63%)
---dark-grayish-blue: hsl(219, 12%, 42%)
---very-dark-blue: hsl(224, 21%, 14%)
+--red: hsl(1, 90%, 64%);
+--blue: hsl(219, 85%, 26%);
+--white: hsl(0, 0%, 100%) --very-light-grayish-blue: hsl(210, 60%, 98%)
+  --light-grayish-blue-one: hsl(211, 68%, 94%) --light-grayish-blue-two: hsl(
+    205,
+    33%,
+    90%
+  )
+  --grayish-blue: hsl(219, 14%, 63%) --dark-grayish-blue: hsl(219, 12%, 42%)
+  --very-dark-blue: hsl(224, 21%, 14%);
 ```
 
 ## Gap
@@ -155,9 +156,9 @@ This project will be built to be responsive across two devices:
   font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('/assets/fonts/plus-jakarta-sans-v8-latin-regular.woff2') format('woff2'), 
-       url('/assets/fonts/plus-jakarta-sans-v8-latin-regular.woff') format('woff'), 
-       url('/assets/fonts/plus-jakarta-sans-v8-latin-regular.ttf') format('truetype'); 
+  src: url('/assets/fonts/plus-jakarta-sans-v8-latin-regular.woff2') format('woff2'),
+       url('/assets/fonts/plus-jakarta-sans-v8-latin-regular.woff') format('woff'),
+       url('/assets/fonts/plus-jakarta-sans-v8-latin-regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -166,27 +167,27 @@ This project will be built to be responsive across two devices:
   font-style: normal;
   font-weight: 500;
   src:url('/assets/fonts/plus-jakarta-sans-v8-latin-500.woff2') format('woff2'),
-      url('/assets/fonts/plus-jakarta-sans-v8-latin-500.woff') format('woff'), 
-      url('/assets/fonts/plus-jakarta-sans-v8-latin-500.ttf') format('truetype');  
+      url('/assets/fonts/plus-jakarta-sans-v8-latin-500.woff') format('woff'),
+      url('/assets/fonts/plus-jakarta-sans-v8-latin-500.ttf') format('truetype');
 }
 
 @font-face {
-  font-display: swap; 
+  font-display: swap;
   font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 800;
   src: url('/assets/fonts/plus-jakarta-sans-v8-latin-800.woff2') format('woff2'),
-       url('/assets/fonts/plus-jakarta-sans-v8-latin-800.woff') format('woff'), 
+       url('/assets/fonts/plus-jakarta-sans-v8-latin-800.woff') format('woff'),
        url('/assets/fonts/plus-jakarta-sans-v8-latin-800.ttf') format('truetype');
-    
+
 }
 
 /* Variable Fonts */
 @font-face {
 	font-display: swap;
-	font-family: 'Plus Jakarta Sans'; 
-	font-style: normal; 
-	font-weight: 100 800; 
+	font-family: 'Plus Jakarta Sans';
+	font-style: normal;
+	font-weight: 100 800;
 	src:url("/assets/fonts/plusjakartasans-variablefont_wght-webfont.woff2")
       format("woff2-variations"),
 	    url("/assets/fonts/plusjakartasans-variablefont_wght-webfont.woff2")
@@ -195,7 +196,7 @@ This project will be built to be responsive across two devices:
       format("woff-variations"),
 	    url("/assets/fonts/plusjakartasans-variablefont_wght-webfont.woff") format("woff") tech("variations"),
 	    url("/assets/fonts/PlusJakartasans-VariableFont_wght.ttf") format("ttf")
-      tech("variations"), 
-      url(/assets/fonts/PlusJakartasans-VariableFont_wght.ttf) format("ttf-variations"); 
+      tech("variations"),
+      url(/assets/fonts/PlusJakartasans-VariableFont_wght.ttf) format("ttf-variations");
 }
 ```
